@@ -32,4 +32,4 @@ select * from emp where name like "%a";
 select * from emp where name like "_a%";
 select * from emp where name like "%_a";
 select * from emp where name like "%a%";
-select * from emp where name like "%__a%";
+select * from emp where name like "%__a%";--
