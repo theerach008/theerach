@@ -23,3 +23,13 @@ alter table bookrejo drop thee;
 alter table bookrejo rename column price to prices;
 alter table bookrejos rename to bookrejo;
 desc bookrejo;
+
+
+-----like
+select * from emp ;
+select * from emp where name like "a%";
+select * from emp where name like "%a";
+select * from emp where name like "_a%";
+select * from emp where name like "%_a";
+select * from emp where name like "%a%";
+select * from emp where name like "%__a%";
