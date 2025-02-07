@@ -1,0 +1,25 @@
+show databases;
+create database Theerach;
+drop database theerach;
+
+use theerach;
+
+create table tk_test (
+	name varchar(50),
+    class varchar(50),
+    sub varchar(50)
+);
+
+insert into tk_test (name,class,sub ) 
+values ('tk','12th','tamil');
+insert into tk_test  (name,class,sub)
+values ('xx','11th','english'),('yy','11th','english')
+;
+
+use theerach;
+alter  table bookrejo add thee int;
+alter table bookrejo modify thee float;
+alter table bookrejo drop thee;
+alter table bookrejo rename column price to prices;
+alter table bookrejos rename to bookrejo;
+desc bookrejo;
